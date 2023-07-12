@@ -7,12 +7,16 @@ body{
 .text-primary{
     color: #E55473;
 }
+.text-primary2{
+    color: #FFFFFF;
+}
 
 /* nav styles*/
 nav{
 display: flex;
 justify-content: space-between;
 align-items: center;
+margin: 0 200px;
 }
 .nav-logo{
     font-size: 40px;
@@ -30,4 +34,16 @@ nav li {
 nav a{
     text-decoration: none;
     color: #0f0f0f;
+}
+.header{
+    background-color: #E554731A;
+}
+.banner{
+    padding: 30px 30px 30px 120px;
+    display: flex;
+}
+.banner.banner-pic{
+width: 635px;
+height: 800px;
+flex-shrink: 0;
 }
