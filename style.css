@@ -17,7 +17,8 @@ nav{
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin: 0 200px;
+margin: 0 1px;
+padding: 10px;
 
 }
 .nav-logo{
@@ -31,76 +32,87 @@ nav > ul{
 }
 nav li {
     list-style: none;
-    margin-right: 60px;
+    margin-right: 40px;
 }
 nav a{
     text-decoration: none;
     color: #0f0f0f;
     font-size: 20px;
 }
+/* nav section end*/
 .header{
     background-color: #E554731A;
     
 
 }
-.banner{
-    padding: 30px 30px 0px 120px;
+/* banner section start*/
+.banner-section{
+    background:rgba(229, 84, 115, 0.10);
+    color: #E55473;
     display: flex;
+    justify-content: space-around;
     align-items: center;
 }
-.banner.banner-pic{
-width: 635px;
-height: 800px;
-flex-shrink: 0;
-}
-.button-primary{
-color: #FFF;
-font-size: 20px;
-font-weight: 700;
-line-height: normal;
-display: inline-flex;
-padding: 20px 40px;
-align-items: flex-start;
-gap: 10px;
-border-radius: 5px;
-background: #E55473;
-border: 0px;
-}
-.banner-title{
-display: flex;
-width: 700px;
-flex-direction: column;
-color: #272727;
-font-size: 70px;
-font-weight: 600;
 
+.banner-content{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 70px;
+    margin: 30px;
 }
 .banner-desc{
-display: flex;
-width: 600px;
-flex-direction: column;
-color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin: 30px 22px;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
+
+.button-primary{
+    background-color: palevioletred;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    border: 15px solid palevioletred;
+    border-radius: 5px;
+}
+.flower-pic{
+    padding-top: 20px;
+    height: 500px;
+    width: 350px;
+    padding-right: 100px;
+    margin:30px 30px 0px 120px;
+}
+.flower-pic img{
+    height: 100%;
+    width: 100%;
+
+}
+
 /* Start main section*/
-.featured{
-color: #272727;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
-}
+
 .featured-desc{
 display: flex;
-width: 594px;
+width: 500px;
 flex-direction: column;
 color: rgba(39, 39, 39, 0.60);
 text-align: center;
 font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin: 24px 600px 48px;
+font-weight: 350;
+line-height: 20px;
+/*margin: 24px 600px 48px;*/
 align-items: center;
+margin: 10px;
 }
+.featured-title{
+color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+margin: 10px;
+}
+
